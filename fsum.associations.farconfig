@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<farconfig version="3.0.4040">
+    <associations>
+        <filetype mask="*.sfv,*.md5,*.sha1" description="fsum check">
+            <command type="0" enabled="1" command='view:&lt;fsum.exe -c -jnc -w &quot;!.!&quot;' />
+        </filetype>
+    </associations>
+</farconfig>

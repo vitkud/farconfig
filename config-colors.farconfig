@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<farconfig version="3.0.4040">
+    <highlight>
+        <hierarchicalconfig>
+            <key name="Highlight" description="">
+                <key name="Group0" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000001" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000400" />
+
+                    <value name="MarkChar" type="qword" value="000000000000004C" />
+                    <value name="MarkCharNormalColor" type="color" background="00000001" foreground="FF000005" flags="fg4bit bg4bit" />
+                    <value name="MarkCharCursorColor" type="color" background="00000003" foreground="FF000005" flags="fg4bit bg4bit" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000001" foreground="FF00000D" flags="fg4bit bg4bit" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000003" foreground="FF00000D" flags="fg4bit bg4bit" />
+
+                    <value name="NormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="CursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="ContinueProcessing" type="qword" value="0000000000000001" />
+                </key>
+                <key name="Group1" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000001" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000000" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000000" />
+                    <value name="UseHardLinks" type="qword" value="0000000000000001" />
+
+                    <value name="MarkChar" type="qword" value="0000000000000048" />
+                    <value name="MarkCharNormalColor" type="color" background="00000001" foreground="FF000005" flags="fg4bit bg4bit" />
+                    <value name="MarkCharCursorColor" type="color" background="00000003" foreground="FF000005" flags="fg4bit bg4bit" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000001" foreground="FF00000D" flags="fg4bit bg4bit" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000003" foreground="FF00000D" flags="fg4bit bg4bit" />
+
+                    <value name="NormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="CursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="ContinueProcessing" type="qword" value="0000000000000001" />
+                </key>
+                <key name="Group2" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="*.*" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000002" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF000003" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF000008" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group3" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="*.*" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000004" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF000003" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF000008" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group4" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000001" />
+                    <value name="Mask" type="text" value="*.*" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000810" />
+                    
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF000007" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF000007" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group5" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000001" />
+                    <value name="Mask" type="text" value="*" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000004010" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF000008" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF000008" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group6" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="*.*|.." />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000010" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF00000F" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF00000F" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group7" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value=".." />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000010" />
+                    
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="CursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group8" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="&lt;exec&gt;" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000000" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000000" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF00000A" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF00000A" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group9" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="&lt;arc&gt;" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000000" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000000" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF00000D" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF00000D" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group10" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000000" />
+                    <value name="Mask" type="text" value="&lt;temp&gt;" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000000" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000000" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF000006" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF000006" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+                <key name="Group11" description="">
+                    <value name="IgnoreMask" type="qword" value="0000000000000001" />
+
+                    <value name="UseAttr" type="qword" value="0000000000000001" />
+                    <value name="IncludeAttributes" type="qword" value="0000000000000010" />
+
+                    <value name="MarkChar" type="qword" value="0000000000FF0000" />
+                    <value name="MarkCharNormalColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="MarkCharSelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+
+                    <value name="NormalColor" type="color" background="00000001" foreground="FF00000F" flags="fg4bit bg4bit" />
+                    <value name="CursorColor" type="color" background="00000003" foreground="FF00000F" flags="fg4bit bg4bit" />
+                    <value name="SelectedColor" type="color" background="00000000" foreground="00000000" flags="" />
+                    <value name="SelectedCursorColor" type="color" background="00000000" foreground="00000000" flags="" />
+                </key>
+            </key>
+        </hierarchicalconfig>
+    </highlight>
+</farconfig>

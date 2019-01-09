@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<farconfig version="3.0.4040">
+    <generalconfig>
+        <setting key="Language" name="Help" type="text" value="Russian" />
+        <setting key="Language" name="Main" type="text" value="Russian" />
+        <setting key="Panel.Layout" name="FreeInfo" type="qword" value="0000000000000001" />
+        <setting key="Panel.Layout" name="Scrollbar" type="qword" value="0000000000000001" />
+        <setting key="Panel.Left" name="NumericSort" type="qword" value="0000000000000001" />
+        <setting key="Panel.Right" name="NumericSort" type="qword" value="0000000000000001" />
+        <setting key="Interface" name="DelShowTotal" type="qword" value="0000000000000001" />
+        <setting key="Dialog" name="AutoComplete" type="qword" value="0000000000000000" />
+        <setting key="Cmdline" name="AutoComplete" type="qword" value="0000000000000000" />
+        <setting key="Descriptions" name="ListNames" type="text" value="descript.ion,files.bbs" />
+        <setting key="System" name="FolderInfo" type="text" value="dirinfo,file_id.diz,descript.ion,readme.*,read.me" />
+        <setting key="Viewer" name="DefaultCodePage" type="qword" value="000000000000FDE9" />
+        <setting key="Viewer" name="TabSize" type="qword" value="0000000000000004" />
+        <setting key="Editor" name="AddUnicodeBOM" type="qword" value="0000000000000000" />
+        <setting key="Editor" name="AutoIndent" type="qword" value="0000000000000001" />
+        <setting key="Editor" name="DefaultCodePage" type="qword" value="000000000000FDE9" />
+        <setting key="Editor" name="TabSize" type="qword" value="0000000000000004" />
+        <setting key="CodePages" name="CPMenuMode" type="qword" value="0000000000000001" />
+        <setting key="CodePages.Favorites" name="20866" type="qword" value="0000000000000001" />
+        <setting key="CodePages.Favorites" name="10007" type="qword" value="0000000000000001" />
+        <setting key="System" name="DriveMenuMode" type="qword" value="000000000000014F" />
+        <setting key="System" name="UpdateEnvironment" type="qword" value="0000000000000001"/>
+    </generalconfig>
+    <localconfig>
+        <setting key="Panel.Left" name="Folder" type="text" value="C:\" />
+        <setting key="Panel.Right" name="Folder" type="text" value="C:\" />
+    </localconfig>
+    <panelmodes>
+        <hierarchicalconfig>
+            <key name="0" description="">
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="1" description="">
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="2" description="">
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="3" description="">
+                <value name="ColumnTitles" type="text" value="N,D,T,A" />
+                <value name="ColumnWidths" type="text" value="0,10,8,0" />
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="4" description="">
+                <value name="ColumnTitles" type="text" value="N,SC" />
+                <value name="ColumnWidths" type="text" value="0,15" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="5" description="">
+                <value name="ColumnTitles" type="text" value="N,S,P,DM,DC,DA,DE,A" />
+                <value name="ColumnWidths" type="text" value="0,6,6,14,14,14,14,0" />
+                <value name="Flags" type="qword" value="0000000000000001" />
+            </key>
+            <key name="6" description="">
+                <value name="ColumnTitles" type="text" value="N,Z" />
+                <value name="ColumnWidths" type="text" value="12,0" />
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="7" description="">
+                <value name="ColumnTitles" type="text" value="N,S,Z" />
+                <value name="ColumnWidths" type="text" value="12,6,0" />
+                <value name="Flags" type="qword" value="0000000000000001" />
+            </key>
+            <key name="8" description="">
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+            <key name="9" description="">
+                <value name="Flags" type="qword" value="0000000000000000" />
+                <value name="StatusColumnTitles" type="text" value="NR,SC,D,T" />
+                <value name="StatusColumnWidths" type="text" value="0,7,0,5" />
+            </key>
+        </hierarchicalconfig>
+    </panelmodes>
+</farconfig>
