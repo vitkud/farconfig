@@ -12,8 +12,8 @@ Far Manager v3.0 configurations
 * Run Far
 * Close Far
 * Execute **deploy.bat**
-* Start Far
-* Run Far and Save setup: **Shift+F9**
+* Run Far
+* Save setup: **Shift+F9**
 
 ## Plugins
 * Integrity Checker 2.4.3.0
