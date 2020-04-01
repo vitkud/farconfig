@@ -19,6 +19,8 @@ Far Manager v3.0 configurations
 * Integrity Checker 2.4.3.0
 * PortaDev 3.0.4040
 * FarColorer
-  * unzip groovy-hrc.zip into Plugins\\FarColorer\\base\\hrc\\auto
-    * groovy.hrc, Schemes.hrc: "/\\.groovy$/i" -> "/\\.(groovy|gy|gradle)$/i"
-  * Plugins\FarColorer\base\hrc\proto.hrc: "/\\.(rb|rbw|ruby|rake)$/i" -> "/\\.(rb|rbw|ruby|rake)$|^Vagrantfile$/i"
+  * Plugins\FarColorer\base\hrc\proto.hrc:
+    * After `<filename>/\.(rb|rbw|ruby|rake)$/i</filename>`
+      * append `<filename>/^Vagrantfile$/i</filename>` 
+    * After `<filename>/\.groovy$/i</filename>`
+      * append `<filename>/\.gradle$/i</filename>` 
