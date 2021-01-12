@@ -1,0 +1,7 @@
+Preset name: AliexpressFromChomeDOM
+Search for: <tbody class="order-item-wraper.*?">Order ID:<\/.*?">(\d*)<\/.*?">Order time:<\/.*?">(.*?)<\/.*?">Store name:<\/.*?">(.*?)<\/.*?">\s*Order amount:\s*<\/.*?">\s*(.*?)\s*<\/.*?<a class="pic s50" href="//www.aliexpress.com/item/.*?/(\d*).html".*?<img src="(.*?)".*?(?:class="baobei-name" productid="\5" title="(.*?)".*?){2}.*?<td class="order-action" rowspan="1" orderid="\1".*?<\/tbody>\s*
+Replace with: $1	$2	$3	$4	$5	$6	$7\n
+[x] Regular expression
+[x] Several lines   [ ... ]
+  'Several' lines means      32      lines or  16     KB
+

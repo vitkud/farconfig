@@ -24,3 +24,5 @@ Far Manager v3.0 configurations
       * append `<filename>/^Vagrantfile$/i</filename>` 
     * After `<filename>/\.groovy$/i</filename>`
       * append `<filename>/\.gradle$/i</filename>` 
+* Regular Expression Search and Replace (RESearch) 8.7.0.0
+  * Copy `RESearch.lua` into `%FARPROFILE%\Macros\scripts`
