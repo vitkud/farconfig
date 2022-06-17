@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<farconfig version="3.0.5888">
+    <associations>
+        <filetype mask="*.sfv,*.md5,*.sha1,*.sha256,*.sha512" description="fsum check">
+            <command type="0" enabled="1" command="view:&lt;fsum -c -jnc -w &quot;!.!&quot;"/>
+        </filetype>
+        <filetype mask="*.class" description="Java compiled file">
+            <command type="3" enabled="1" command="view:&lt;cfr &quot;!.!&quot;"/>
+            <command type="5" enabled="1" command="edit:&lt;cfr &quot;!.!&quot;"/>
+        </filetype>
+    </associations>
+</farconfig>
