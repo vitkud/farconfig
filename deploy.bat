@@ -4,8 +4,8 @@ SET CurDir=
 ECHO 00%%
 
 :: Get Far Manager install dir
-FOR /F "tokens=2*" %%i IN ('REG QUERY "HKLM\SOFTWARE\Far Manager" /v "InstallDir" 2^>NUL ^| FIND /I "InstallDir"') DO SET InstallDir=%%j>NUL
-IF "%InstallDir%" == "" FOR /F "tokens=2*" %%i IN ('REG QUERY "HKLM\SOFTWARE\Far Manager" /v "InstallDir_x64" ^| FIND /I "InstallDir_x64"') DO SET InstallDir=%%j
+FOR /F "tokens=2*" %%i IN ('REG QUERY "HKLM\SOFTWARE\Far Manager" /v "InstallDir" 2^>NUL ^| find.exe /I "InstallDir"') DO SET InstallDir=%%j>NUL
+IF "%InstallDir%" == "" FOR /F "tokens=2*" %%i IN ('REG QUERY "HKLM\SOFTWARE\Far Manager" /v "InstallDir_x64" ^| find.exe /I "InstallDir_x64"') DO SET InstallDir=%%j
 IF "%InstallDir%" == "" GOTO ERROR
 IF NOT EXIST "%InstallDir%" GOTO ERROR
 ECHO 10%%

@@ -5,8 +5,8 @@
             <command type="0" enabled="1" command="view:&lt;fsum -c -jnc -w &quot;!.!&quot;"/>
         </filetype>
         <filetype mask="*.class" description="Java compiled file">
-            <command type="3" enabled="1" command="view:&lt;cfr &quot;!.!&quot;"/>
-            <command type="5" enabled="1" command="edit:&lt;cfr &quot;!.!&quot;"/>
+            <command type="3" enabled="1" command="view:&lt;cfr &quot;!\!.!&quot;"/>
+            <command type="5" enabled="1" command="edit:&lt;cfr &quot;!\!.!&quot;"/>
         </filetype>
     </associations>
 </farconfig>
