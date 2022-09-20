@@ -26,3 +26,5 @@ Far Manager v3.0 configurations
       * append `<filename>/\.gradle$/i</filename>` 
 * Regular Expression Search and Replace (RESearch) 8.7.0.0
   * Copy `RESearch.lua` into `%FARPROFILE%\Macros\scripts`
+* [MultiArc 1.75.0.200](https://plugring.farmanager.com/plugin.php?pid=915) for support [innounp 0.50](http://innounp.sourceforge.net/)
+  * Unpack into `%FARHOME%\Plugins\MultiArc`
