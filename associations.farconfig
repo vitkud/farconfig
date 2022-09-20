@@ -8,5 +8,10 @@
             <command type="3" enabled="1" command="view:&lt;cfr &quot;!\!.!&quot;"/>
             <command type="5" enabled="1" command="edit:&lt;cfr &quot;!\!.!&quot;"/>
         </filetype>
+        <filetype mask="*.sig" description="ssh-keygen sign file">
+            <command type="0" enabled="1" command="view:&lt;ssh-keygen -Y check-novalidate -n file -s &quot;!.!&quot; &lt; &quot;!&quot;"/>
+            <command type="3" enabled="1" command="view:&lt;ssh-keygen -Y check-novalidate -n file -s &quot;!.!&quot; &lt; &quot;!&quot;"/>
+            <command type="5" enabled="1" command="edit:&lt;ssh-keygen -Y check-novalidate -n file -s &quot;!.!&quot; &lt; &quot;!&quot;"/>
+        </filetype>
     </associations>
 </farconfig>
